@@ -500,7 +500,7 @@ Colors are specified using their hexadecimal values with a _#_ prefix: _#RRGGBB_
 	For more information see
 	_https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783_.
 
-	Default: _true_
+	Default: _false_
 
 # BELL
 

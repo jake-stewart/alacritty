@@ -40,7 +40,7 @@ impl Default for Colors {
             hints: Default::default(),
             transparent_background_colors: Default::default(),
             draw_bold_text_with_bright_colors: Default::default(),
-            generate_indexed: true,
+            generate_indexed: false,
             footer_bar: Default::default(),
         }
     }
