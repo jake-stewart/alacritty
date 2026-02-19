@@ -482,10 +482,6 @@ impl Lab {
     }
 
     fn lerp(t: f32, a: Lab, b: Lab) -> Lab {
-        Lab {
-            l: a.l + t * (b.l - a.l),
-            a: a.a + t * (b.a - a.a),
-            b: a.b + t * (b.b - a.b),
-        }
+        Lab { l: a.l + t * (b.l - a.l), a: a.a + t * (b.a - a.a), b: a.b + t * (b.b - a.b) }
     }
 }
