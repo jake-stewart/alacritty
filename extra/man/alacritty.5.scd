@@ -492,6 +492,16 @@ Colors are specified using their hexadecimal values with a _#_ prefix: _#RRGGBB_
 
 	Default: _false_
 
+*generate_indexed* = _true_ | _false_
+
+	Generate the indexed 256 color palette from the base 16 colors. Colors
+	manually set via *indexed_colors* are not replaced.
+
+	For more information see
+	_https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783_.
+
+	Default: _true_
+
 # BELL
 
 This section documents the *[bell]* table of the configuration file.
